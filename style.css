@@ -21,20 +21,6 @@ html {
   --grey-dk: #333;
   --grey-lg: #ccc;
   --grey-xl: #eee;
-  --size-1: 1px;
-  --size-2: 2px;
-  --size-3: 3px;
-  --size-4: 4px;
-  --size-5: 5px;
-  --size-xs: 6px;
-  --size-sm: 8px;
-  --size-md: 10px;
-  --size-lg: 12px;
-  --size-xl: 15px;
-  --size-xxl: 20px;
-  --b-radius-sm: 3px;
-  --b-radius-md: 5px; 
-  --b-radius-lg: 8px; 
 }
 
 .container {
@@ -58,6 +44,10 @@ html {
   padding: 2rem 0;
 }
 
+.navbar-top div {
+  margin: 0 4rem;
+}
+
 .logo {
   display: flex;
   align-items: center
@@ -74,6 +64,21 @@ html {
   font-size: 4rem;
   font-weight: bold;
   letter-spacing: 0.3rem;
+  color: var(--primary);
+}
+
+.searchbar {
+  position: relative;
+}
+
+.search-bar input {
+  width: 52rem;
+  padding: 1.2rem 1.4rem 1.2rem 3.7rem;
+  background-color: transparent;
+  border: 1px solid var(--grey-dk);
+  border-radius: 3px;
+  font-size: 1.6rem;
+  font-weight: 300;
   color: var(--primary);
 
 }
