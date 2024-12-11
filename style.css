@@ -134,3 +134,7 @@ html {
   color: var(--grey-dk);
   letter-spacing: 0.1rem;
 }
+
+@media (max-width: 1600px) {
+  
+}
