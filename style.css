@@ -13,7 +13,7 @@ html {
 }
 
 :root {
-  --primary: #024646;
+  --primary: #2d7aec;
   --secondary: #68a5de;
   --black: #000;
   --dark: #111;
@@ -55,7 +55,7 @@ html {
 
 .logo i {
   font-size: 6rem;
-  color: var(--grey-dk);
+  color: var(--primary);
   margin-right: 2rem;
 }
 
@@ -93,11 +93,15 @@ html {
 
 .user {
   font-size: 2rem;
-  color: var(--grey-dk);
+  color: var(--primary);
 }
 
-.user i, .user span {
+.user i, .cart-price {
   margin-right: 1.2rem;
+}
+
+.cart-price {
+  color: var(--grey-dk);
 }
 
 .nav-list {
