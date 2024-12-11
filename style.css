@@ -62,3 +62,9 @@ html {
   display: flex;
   align-items: center
 }
+
+.logo i {
+  font-size: 6rem;
+  color: var(--grey-dk);
+  margin-right: 2rem;
+}
