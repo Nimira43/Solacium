@@ -189,3 +189,12 @@ html {
     width: 12rem;
   }
 }
+
+@media (max-width: 450px) {
+  html {
+    font-size: 32%;
+  }
+  .logo span {
+    display: none;
+  }
+}
