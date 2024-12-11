@@ -109,3 +109,12 @@ html {
   height: 8.5rem;
   padding-top: 2rem;
 }
+
+.nav-list div {
+  width: 16rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-left: 1px solid var(--primary);
+}
