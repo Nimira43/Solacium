@@ -13,7 +13,7 @@ html {
 }
 
 :root {
-  --primary: #012222;
+  --primary: #024646;
   --secondary: #68a5de;
   --black: #000;
   --dark: #111;
@@ -67,4 +67,13 @@ html {
   font-size: 6rem;
   color: var(--grey-dk);
   margin-right: 2rem;
+}
+
+.logo span {
+  font-family: 'Great Vibes',serif;
+  font-size: 4rem;
+  font-weight: bold;
+  letter-spacing: 0.3rem;
+  color: var(--primary);
+
 }
