@@ -118,3 +118,8 @@ html {
   justify-content: center;
   border-left: 1px solid var(--primary);
 }
+
+.nav-list div:nth-child(1) {
+  border: none;
+  
+}
