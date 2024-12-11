@@ -144,3 +144,33 @@ html {
     font-size: 54%;
   }
 }
+
+@media (max-width: 1200px) {
+  html {
+    font-size: 51%;
+  }
+}
+
+@media (max-width: 1000px) {
+  html {
+    font-size: 46%;
+  }
+  .navbar-top div {
+    margin: 0 2rem;
+  }
+  .search-bar input {
+    width: 40rem;
+  }
+}
+
+@media (max-width: 800px) {
+  html {
+    font-size: 39%;
+  }
+  .logo i {
+    font-size: 4rem
+  }
+  .search-bar input {
+    width: 30rem;
+  }
+}
