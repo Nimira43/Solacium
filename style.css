@@ -121,5 +121,16 @@ html {
 
 .nav-list div:nth-child(1) {
   border: none;
-  
+}
+
+.nav-list i {
+  font-size: 2rem;
+  color: var(--primary);
+  margin-bottom: 1rem;
+}
+
+.nav-list span {
+  font-size: 1.6rem;
+  color: var(--grey-dk);
+  letter-spacing: 0.1rem;
 }
