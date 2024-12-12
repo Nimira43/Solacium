@@ -257,11 +257,21 @@ html {
   width: 18rem;
   height: 20rem;
   margin-right: 2rem;
-  background-color: var(--grey-lg);
   padding: 3rem 0;
+  border: 1px dotted var(--secondary);
   border-radius: 2rem;
   cursor: pointer;
   transition: all 0.3s;
+}
+
+.products-icons div:hover {
+  border: 1px solid var(--primary);
+  background-color: #fefefe;
+  box-shadow: 0 1.5rem 4.5rem rgba(0, 0, 0, 0.1);
+}
+
+.products-icons div:last-child {
+  margin-right: 0;
 }
 
 @media (max-width: 1600px) {
