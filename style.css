@@ -224,7 +224,7 @@ html {
 }
 
 .products-top {
-  margin-top: 8rem;
+  margin-bottom: 8rem;
   width: 60%;
   text-align: center;
 }
@@ -259,14 +259,12 @@ html {
   height: 20rem;
   margin-right: 2rem;
   padding: 3rem 0;
-  /* border: 1px dotted var(--secondary); */
   border-radius: 2rem;
   cursor: pointer;
   transition: all 0.3s;
 }
 
 .products-icons div:hover {
-  /* border: 1px solid var(--primary); */
   background-color: #efefef;
   box-shadow: 0 1.5rem 4.5rem rgba(0, 0, 0, 0.1);
 }
