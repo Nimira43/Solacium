@@ -288,6 +288,16 @@ html {
   .banner {
     width: 70%;
   }
+  .products {
+    padding-top: 10rem;
+    height: 100vh;
+  }
+  .products-top {
+    width: 70%;
+  }
+  .products-icons {
+    width: 70%;
+  }
 }
 
 @media (max-width: 1400px) {
@@ -301,6 +311,12 @@ html {
     font-size: 51%;
   }
   .banner {
+    width: 80%;
+  }
+  .products-top {
+    width: 80%;
+  }
+  .products-icons {
     width: 80%;
   }
 }
@@ -318,6 +334,15 @@ html {
   .banner-heading {
     font-size: 6rem;
   }
+  .products {
+    padding-top: 5rem;
+  }
+  .products-top h2 {
+    font-size: 5rem;
+  }
+  .products-top h1 {
+    font-size: 7rem;
+  }
 }
 
 @media (max-width: 800px) { 
@@ -329,7 +354,20 @@ html {
   } 
   .search-bar input { 
     width: 30rem; 
+  }
+  .products {
+    height: 75vh;
+    padding-top: 0;
   } 
+  .products-icons div {
+    height: 18rem;
+  }
+  .products-icons div img {
+    width: 5rem;
+  }
+  .products-icons div span {
+    font-size: 1.8rem;
+  }
 } 
 
 @media (max-width: 600px) { 
@@ -353,13 +391,34 @@ html {
   } 
   .banner-btn { 
     width: 15rem; 
+  }
+  .products {
+    height: 90vh;
   } 
+  .products-top {
+    margin-bottom: 3rem;
+  }
+  .products-icons {
+    width: 70%;
+    flex-wrap: wrap;
+  }
+  .products-icons div {
+    width: 16rem;
+    margin: 2rem;
+  }
+  .products-icons div:last-child {
+    margin-right: 2rem;
+  }
 } 
+
 @media (max-width: 450px) { 
   html { 
     font-size: 32%; 
   } 
   .logo span { 
     display: none;
+  }
+  .products {
+    height: 80vh;
   }
 }
