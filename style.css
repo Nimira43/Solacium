@@ -184,7 +184,7 @@ html {
 
   font-weight: 500;
   background-color: rgba(0, 0, 0, 0.4);
-  padding: 3rem 0;
+  padding: 3rem;
   border-radius: 3rem;
   text-align: center;
   text-shadow: 0.3rem 0.3rem 0.2rem var(--dark);
@@ -193,7 +193,7 @@ html {
 .banner-btn {
   position: absolute;
   top: 44rem;
-  width: 16rem;
+  width: 18rem;
   height: 4rem;
   border: none;
   border-radius: 3px;

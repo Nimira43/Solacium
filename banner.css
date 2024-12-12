@@ -1,0 +1,154 @@
+* {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; 
+  outline: none;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+
+.landing {
+  width: 100%;
+  height: 90vh;
+  position: relative;
+}
+
+.landing-bg {
+  position: absolute;
+  top: 4rem;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 90%;
+  height: 65rem;
+  background-color: #68a5de;
+  border-radius: 3rem;
+}
+
+.banner {
+  width: 60%;
+  height: 65rem;
+  position: absolute;
+  top: 8rem;
+  left: 50%;
+  transform: translateX(-50%);
+  background-image: linear-gradient(
+    rgba(0, 0, 0, 0.5),
+    rgba(0, 0, 0, 0.5));
+  border-radius: 3rem;
+}
+
+.banner-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 3rem;
+  opacity: 0.8;
+}
+
+.banner-heading {
+  position: absolute;
+  top: 10rem;
+  right: 5rem;
+  width: 40%;
+  font-size:8rem;
+  line-height: 1;
+  color: #fffaf0;
+
+  font-weight: 500;
+  background-color: rgba(0, 0, 0, 0.4);
+  padding: 3rem;
+  border-radius: 3rem;
+  text-align: center;
+  text-shadow: 0.3rem 0.3rem 0.2rem #111;
+}
+
+.banner-btn {
+  position: absolute;
+  top: 44rem;
+  width: 16rem;
+  height: 4rem;
+  border: none;
+  border-radius: 3px;
+  font-size: 1.6rem;
+  cursor: pointer;
+  transition: all 0.3s;
+  background-color: #fffaf0;
+  color: #2d7aec;
+  text-transform: uppercase;
+}
+
+.banner-btn:hover {
+  background-color: #111;
+  color: #fffaf0;
+}
+.banner-btn-1 {
+  right: 25rem;
+}
+
+.banner-btn-2 {
+  right: 5rem;
+}
+
+@media (max-width: 1600px) {
+  .banner {
+    width: 70%;
+  }
+}
+
+@media (max-width: 1400px) {
+  html {
+    font-size: 54%;
+  }
+}
+
+@media (max-width: 1200px) {
+  html {
+    font-size: 51%;
+  }
+  .banner {
+    width: 80%;
+  }
+}
+
+@media (max-width: 1000px) {
+  html {
+    font-size: 46%;
+  }
+  .banner-heading {
+    font-size: 6rem;
+  }
+}
+
+@media (max-width: 800px) {
+  html {
+    font-size: 39%;
+  }
+}
+
+@media (max-width: 600px) {
+  html {
+    font-size: 35%;
+  }  
+  .landing {
+    height: 75vh;
+  }
+  .banner-heading {
+    width: 30rem;
+  }
+  .banner-btn {
+    width: 15rem;
+  }
+  .banner-btn-1 {
+    right: 22rem;
+  }
+}
+
+@media (max-width: 450px) {
+  html {
+    font-size: 32%;
+  }
+}
