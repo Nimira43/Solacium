@@ -216,7 +216,6 @@ html {
 
 .products {
   width: 100%;
-  height: 85vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -224,7 +223,8 @@ html {
 }
 
 .products-top {
-  margin-bottom: 8rem;
+  margin-top: 2rem;
+  margin-bottom: 4rem;
   width: 60%;
   text-align: center;
 }
@@ -236,13 +236,13 @@ html {
 
 .products-top h2 {
   font-size: 7rem;
-  color: var(--secondary);
+  color: var(--primary);
 }
 
 .products-top h1 {
   font-size: 9rem;
-  color: var(--primary);
-  margin-top: -5rem;
+  color: var(--secondary);
+  margin-top: -2rem;
 }
 
 .products-icons {
@@ -332,9 +332,6 @@ html {
   .banner-heading {
     font-size: 6rem;
   }
-  .products {
-    padding-top: 5rem;
-  }
   .products-top h2 {
     font-size: 5rem;
   }
@@ -354,8 +351,7 @@ html {
     width: 30rem; 
   }
   .products {
-    height: 75vh;
-    padding-top: 0;
+    padding-top: 2rem;
   } 
   .products-icons div {
     height: 18rem;
@@ -391,7 +387,8 @@ html {
     width: 15rem; 
   }
   .products {
-    height: 90vh;
+    height: auto;
+    padding-top: 2rem
   } 
   .products-top {
     margin-bottom: 3rem;
