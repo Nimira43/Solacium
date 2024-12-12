@@ -192,18 +192,35 @@ html {
 
 .banner-btn {
   position: absolute;
-  top: 28rem;
-  width: 18rem;
+  top: 44rem;
+  width: 16rem;
   height: 4rem;
   border: none;
   border-radius: 3px;
   font-size: 1.6rem;
   cursor: pointer;
   transition: all 0.3s;
+  background-color: var(--light);
+  color: var(--primary);
+  text-transform: uppercase;
+}
+
+.banner-btn:hover {
+  background-color: var(--dark);
+  color: var(--light);
+}
+.banner-btn-1 {
+  right: 25rem;
+}
+
+.banner-btn-2 {
+  right: 5rem;
 }
 
 @media (max-width: 1600px) {
-
+  .banner {
+    width: 70%;
+  }
 }
 
 @media (max-width: 1400px) {
@@ -216,6 +233,9 @@ html {
   html {
     font-size: 51%;
   }
+  .banner {
+    width: 80%;
+  }
 }
 
 @media (max-width: 1000px) {
@@ -227,6 +247,9 @@ html {
   }
   .search-bar input {
     width: 40rem;
+  }
+  .banner-heading {
+    font-size: 6rem;
   }
 }
 
@@ -254,6 +277,18 @@ html {
   }
   .nav-list div {
     width: 12rem;
+  }
+  .landing {
+    height: 75vh;
+  }
+  .banner-heading {
+    width: 30rem;
+  }
+  .banner-btn {
+    width: 15rem;
+  }
+  .banner-btn-1 {
+    right: 22rem;
   }
 }
 
