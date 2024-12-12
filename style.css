@@ -185,6 +185,7 @@ html {
   border-radius: 3rem; 
   text-shadow: 0.3rem 0.3rem 0.2rem var(--dark);
   width: fit-content;
+  margin-bottom: 2rem;
 }
 
 .banner-btn-container { 
@@ -199,10 +200,11 @@ html {
   border: none;
   border-radius: 3px;
   font-size: 1.6rem;
+  font-weight: 500;
   cursor: pointer;
   transition: all 0.3s;
   background-color: var(--light);
-  color: var(--primary);
+  color: var(--dark);
   text-transform: uppercase;
   margin: 1rem;
 }
